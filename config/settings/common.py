@@ -45,6 +45,9 @@ THIRD_PARTY_APPS = (
 LOCAL_APPS = (
     'cookiedjango.users',  # custom users app
     # Your stuff: custom apps go here
+    'cookiedjango.blog',
+    'cookiedjango.core',
+    'cookiedjango.twitter',
 )
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
